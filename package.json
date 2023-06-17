@@ -1,7 +1,7 @@
 {
-  "name": "@bergfreunde/x-data-spreadsheet",
-  "version": "2.0.68",
-  "description": "a javascript xpreadsheet",
+  "name": "@rskpv/z-spreadsheet",
+  "version": "0.0.1",
+  "description": "x-spreadsheet with async custom formula",
   "types": "src/index.d.ts",
   "main": "src/index.js",
   "files": [
@@ -9,11 +9,11 @@
     "dist",
     "src"
   ],
-  "author": "myliang <liangyuliang0335@gmail.com>",
+  "author": "Pavel Rusakov",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bergfreunde/x-spreadsheet.git"
+    "url": "https://github.com/rskvp/z-spreadsheet.git"
   },
   "nyc": {
     "all": true,
@@ -37,41 +37,37 @@
   "keywords": [
     "javascript",
     "spreadsheet",
+    "excel",
+    "datatable",
     "canvas"
   ],
   "devDependencies": {
-    "@babel/core": "^7.19.0",
+    "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/preset-env": "^7.19.0",
-    "@babel/register": "^7.18.9",
-    "babel-loader": "^8.2.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/register": "^7.22.5",
+    "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "codecov": "^3.8.3",
-    "css-loader": "^6.7.1",
-    "eslint": "^8.23.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.43.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "^2.27.5",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.6.1",
-    "mocha": "^10.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "sass": "^1.54.9",
-    "sass-loader": "^13.0.2",
-    "style-loader": "^3.3.1",
-    "terser-webpack-plugin": "^5.3.6",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.11.0",
-    "webpack-merge": "^5.8.0"
+    "sass": "^1.63.4",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
   },
   "dependencies": {
-    "any-date-parser": "^1.5.4",
-    "opencollective": "^1.0.3",
-    "opencollective-postinstall": "^2.0.3"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/x-spreadsheet"
+    "any-date-parser": "^1.5.4"
   }
 }
